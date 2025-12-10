@@ -1,0 +1,77 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'r_video_clk'
+Slack : -8.711
+TNS   : -4246.571
+
+Type  : Slow 1200mV 85C Model Setup 'MAX10_CLK1_50'
+Slack : -1.037
+TNS   : -1.037
+
+Type  : Slow 1200mV 85C Model Hold 'r_video_clk'
+Slack : 0.325
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'MAX10_CLK1_50'
+Slack : 0.838
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'r_video_clk'
+Slack : -2.422
+TNS   : -1723.592
+
+Type  : Slow 1200mV 0C Model Setup 'r_video_clk'
+Slack : -7.962
+TNS   : -3811.026
+
+Type  : Slow 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -0.902
+TNS   : -0.902
+
+Type  : Slow 1200mV 0C Model Hold 'r_video_clk'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.752
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -4.403
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'r_video_clk'
+Slack : -2.333
+TNS   : -1719.854
+
+Type  : Fast 1200mV 0C Model Setup 'r_video_clk'
+Slack : -3.361
+TNS   : -1365.922
+
+Type  : Fast 1200mV 0C Model Setup 'MAX10_CLK1_50'
+Slack : -0.131
+TNS   : -0.131
+
+Type  : Fast 1200mV 0C Model Hold 'r_video_clk'
+Slack : 0.133
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'MAX10_CLK1_50'
+Slack : 0.303
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'MAX10_CLK1_50'
+Slack : -3.000
+TNS   : -4.010
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'r_video_clk'
+Slack : -1.000
+TNS   : -1198.000
+
+------------------------------------------------------------
