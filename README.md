@@ -4,6 +4,8 @@ Este repositório contém a implementação do autômato celular "Jogo da Vida" 
 
 O projeto foi desenvolvido como requisito para a disciplina de **Sistemas Digitais Reconfiguráveis** e consiste em uma adaptação e reengenharia do projeto original [marsohod4you/FPGA_game_life](https://github.com/marsohod4you/FPGA_game_life), migrando a saída de vídeo de HDMI para **VGA Analógico**.
 
+A documentação e o que foi feito estão na pasta **Documentação**.
+
 ## 📋 Características
 
 * **Arquitetura Paralela:** Matriz lógica de 32x32 células com processamento simultâneo.
