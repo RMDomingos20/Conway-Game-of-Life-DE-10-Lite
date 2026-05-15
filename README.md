@@ -1,3 +1,5 @@
+<div align="center">
+
 # Conway's Game of Life — FPGA DE10-Lite (VGA)
 
 [![Board](https://img.shields.io/badge/Board-Intel_DE10--Lite-blue.svg)](https://www.terasic.com.tw/cgi-bin/page/archive.pl?Language=English&CategoryNo=216&No=1021)
@@ -14,6 +16,7 @@ Developed as a capstone project for the **Reconfigurable Digital Systems** cours
 > *"People think that mathematics is complicated. Mathematics is the easy part. It's something we can understand. It's cats that are complicated... And how do you define a cat? I have no idea."*  
 > — **John H. Conway**
 
+</div>
 ---
 
 # Mathematical Foundation & Cellular Logic
@@ -212,6 +215,7 @@ states before repetition.
 ---
 
 # Hardware Specifications
+<div align="center">
 
 Synthesized for the Intel DE10-Lite development board.
 
@@ -223,9 +227,12 @@ Synthesized for the Intel DE10-Lite development board.
 | System Clock | 50 MHz | Divided to 25 MHz |
 | Video Output | Resistor Ladder DAC | 3-bit RGB implementation |
 
+</div>
+
 ---
 
 # Interface & Controls
+<div align="center">
 
 The physical switches and keys on the DE10-Lite are mapped directly into the FSM control system.
 
@@ -240,6 +247,8 @@ The physical switches and keys on the DE10-Lite are mapped directly into the FSM
 | SW[7] | Seed: Acorn | Methuselah pattern |
 | SW[8] | Turbo Mode | Removes visual throttling |
 | SW[9] | Random Seed | Uses LFSR entropy generation |
+
+</div>
 
 ---
 
@@ -266,13 +275,17 @@ $$
 $$
 
 ## Framerate Limits
-
+The hardware is theoretically capable of processing thousands of generations per second.
+<div align="center">
+    
 | Mode | Framerate |
 |---|---|
 | Normal Mode | ~5 FPS |
 | Turbo Mode | ~30 FPS |
 
-The hardware is theoretically capable of processing thousands of generations per second.
+</div>
+
+---
 
 ## Timing Closure
 
